@@ -16,7 +16,7 @@ $hashtag="z";
 while(strlen($hashtag)<3){
 
 $hash = $_POST['hash'];
-$link = mysql_connect('localhost', 'root', 'y(*32)?={h;IJ28');
+$link = mysql_connect('localhost', 'mysql_user', 'mysql_pass');
 if (!$link) {
     die('Could not connect: ' . mysql_error());
 }
